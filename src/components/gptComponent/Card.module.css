@@ -1,0 +1,22 @@
+.Card {
+  display: flex;
+  width: fit-content;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  gap: 2.25em;;
+  border-radius: 0.625em;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+  background-color: white;
+
+}
+
+.Card .profileImage {
+    width: 4.875em;
+    height: 4.875em;
+    flex-shrink: 0;
+  border-radius: 4.875rem;
+border: 4.937px solid #FFF;
+background: url('../../img/userProfilePicture.png'), lightgray 50% / cover no-repeat;
+box-shadow: 0px 1.9746835231781006px 7.898734092712402px 0px rgba(0, 0, 0, 0.10);
+}
